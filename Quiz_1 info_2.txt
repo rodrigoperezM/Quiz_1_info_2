@@ -1,0 +1,45 @@
+#include <iostream>
+#include <math.h>
+#include<conio.h>
+#include<math.h>
+#include<stdio.h>
+#include<stdlib.h>
+
+
+using namespace std;
+int fac(int);
+
+
+int main()
+
+{
+int num,fin=0,x,cont,z,i,t[100];
+    cout<<"ingrese un numero: ";cin>>num;
+
+    while(num==1)
+    {if (num%2==0)
+    {num=num/2;}
+
+}
+        i=0;
+
+        for(x=1;x<=100;x++)
+        { cont=0;
+          for(z=1;z<=x;z++)
+
+        if(x%z==0)
+        {cont++;}
+
+       if(cont==2 || z==2 || z==0)
+      { t[i]=x;
+           i++;}
+
+      }
+
+        if(num[t])
+        {cout<<"El primo numero "<<num<<" es :"<<num[t]<<" y genera una serie";}
+        {fin++;
+
+        cout<<" "<<"teniendo: "<<num/num<<fin-1<<" terminos.";}
+
+}
